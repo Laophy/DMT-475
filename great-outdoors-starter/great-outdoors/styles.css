@@ -49,10 +49,36 @@ nav a {
     background-image: url('./images//mt-kineo.jpg');
 }
 
-#overlay {
-    
+#banner-content {
+    color: white;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#wrapper-white {
+#overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+}
+
+#overlay h1 {
+    font-size: 3.5vw;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+}
+
+#overlay p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#overlay a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    background-color: #8cc63f;
 
 }
