@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2d Transition</title>
+
+    <style>
+        .droplet {
+            background: mediumaquamarine;
+            border-radius: 2% 50%;
+            height: 100px;
+            width: 100px;
+            margin: 100px;
+            transition: all 1s ease-in-out;
+            position: relative;
+            left: 0;
+        }
+
+        .droplet:hover {
+            background: red;
+            transform: rotate(1080deg);
+            border-radius: 0;
+            position: relative;
+            left: 200px;
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="droplet"></div>
+
+</body>
+</html>
