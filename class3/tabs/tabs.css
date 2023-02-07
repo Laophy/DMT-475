@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+  margin:0;
+  padding:0;
+}
+
+#wrapper {
+      margin:100px auto;
+      width:800px;
+      font-family:sans-serif;
+      color:#202426;
+      overflow:hidden;
+}
+
+.tabs li {
+    list-style:none;
+    float:left;
+    width:25%;
+  }
+.tabs a {
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    position:relative;
+    text-transform:uppercase;
+    color:#fff;
+    padding: 10px 0;
+    background:#51768C;
+    font-size: 16px;
+}
+    
+.tabs a:hover, .tabs a.active {
+    background: #D5EFF2;
+    color:#202426;
+    }
+    
+.tabgroup {
+    padding:30px;
+    background:#D5EFF2;
+  }
+
+.clear:after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photos img {
+    margin-bottom: 40px;
+}

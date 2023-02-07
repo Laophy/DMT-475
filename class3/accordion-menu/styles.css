@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Peralta);
+
+body {
+    margin:0 auto;
+    padding:0;
+	width:600px;
+    text-align:center;
+}
+
+h1, h2 {
+	font-family: Peralta, Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+	margin-top:0;
+}
+
+hr {
+	clear:both;
+}
+
+.alignleft {
+	float:left;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
+
+.menu-layout {
+	width: 500px;
+	text-align: left;
+	margin-left: 32px;
+}
+
+.appetizer-menu,
+.salad-menu,
+.pizza-menu,
+.pasta-menu {
+	background-color: #ffffbd;
+	display:none;
+    font-family:garamond,times-new-roman,serif;
+	margin-bottom: 16px;
+	overflow: hidden;
+	padding: 14px;
+}
+
+.slide {
+	margin:0;
+	padding:0;
+}
+
+.appetizers,
+.salads,
+.pizzas,
+.pastas {
+    cursor:pointer;	
+	display:block;
+    height:20px;
+	border-bottom:solid 2px #000000;
+	padding-top: 6px;
+	text-transform:uppercase;
+	font-family:arial,sans-serif;
+    font-size:14px;
+	color:#ffffff;
+    background:#cc0000;
+    -moz-border-top-left-radius:5px;
+    -moz-border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
