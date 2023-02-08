@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.box {
+    width: 680px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.winter {
+    background-image: url("./images/winter.jpg");
+}
+
+.spring {
+    background-image: url("./images/spring.jpg");
+}
+
+.summer {
+    background-image: url("./images/summer.jpg");
+}
+
+
+.fall {
+    background-image: url("./images/fall.jpg");
+}
+
+.season-box {
+    width: 330px;
+    height: 214px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    transition: opacity 2s;
+}
+
+.season-box:hover {
+    opacity: 1;
+}

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+#timings_container {
+    border: 1px solid #aaa;
+    height: 530px;
+    width: 530px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.box {
+    font-size: 12px;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #626262;
+    color: #fff;
+}
+
+.box p {
+    text-align: center;
+    padding: 4px;
+}
+
+#ease.box {
+    border: 1px solid #f00;
+    transition: all 4s ease 0s;
+}
+
+#ease-in.box {
+    border: 1px solid #00ff00;
+    transition: all 4s ease-in 0s;
+}
+
+#ease-out.box {
+    border: 1px solid #00f;
+    transition: all 4s ease-out 0s;
+}
+
+#ease-in-out.box {
+    border: 1px solid #ff0;
+    transition: all 4s ease-in-out 0s;
+}
+
+#linear.box {
+    border: 1px solid #f0f;
+    transition: all 4s linear 0s;
+}
+
+#custom.box {
+    border: 1px solid #0ff;
+    transition: all 4s cubic-bezier(1,0.835,0,0.945) 0s;
+}
+
+#negative.box {
+    border: 1px solid #000;
+    transition: all 4s cubic-bezier(1,-0.53,0.405,1.425) 0s;
+}
+
+#timings_container:hover .box {
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+    margin-left: 420px;
+    transform: rotate(720deg);
+}
