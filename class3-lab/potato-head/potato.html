@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script>
+      // Wait until the HTML loads
+      $(document).ready(function () {
+        $(function() {
+            $( ".moveit" ).draggable();
+        });
+      }); /* end document.ready */
+    </script>
+  </head>
+  <style>
+    #potatobody {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        z-index: 1;
+    }
+    .container{
+        position: absolute;
+        width: 100%;
+        height: 200px;
+    }
+    .moveit img {
+        z-index: 2;
+    }
+    .floatleft {
+        width: 25%;
+        float:left;
+    }
+    .floatright {
+        width: 25%;
+        float:right;
+    }
+    .floatright img{
+        position: relative;
+    }
+    .floatleft img{
+        position: relative;
+    }
+  </style>
+  <body>
+    <h1 style="width: 100%; text-align: center">
+      Drag the parts around to create a Potato!
+    </h1>
+    <div class="container">
+        <img src="./body.png" alt="" id="potatobody"/>
+    </div>
+
+    <div class="floatleft">
+        <img src="./eyes-eyelashes.png" alt="" class="moveit"/>
+        <img src="./eyes.png" alt="" class="moveit"/>
+        <img src="./glasses.png" alt="" class="moveit"/>
+        <img src="./goatee.png" alt="" class="moveit"/>
+        <img src="./purple-shoes.png" alt="" class="moveit"/>
+        <img src="./right-arm.png" alt="" class="moveit"/>
+        <img src="./right-ear.png" alt="" class="moveit"/>
+        <img src="./smile.png" alt="" class="moveit"/>
+        <img src="./sneakers.png" alt="" class="moveit"/>
+        <img src="./sunglasses.png" alt="" class="moveit"/>
+    </div>
+    <div class="floatright">
+        <img src="./green-cap.png" alt="" class="moveit"/>
+        <img src="./left-arm.png" alt="" class="moveit"/>
+        <img src="./left-ear.png" alt="" class="moveit"/>
+        <img src="./moustache.png" alt="" class="moveit"/>
+        <img src="./nose.png" alt="" class="moveit"/>
+        <img src="./ponytail.png" alt="" class="moveit"/>
+        <img src="./smile-lipstick.png" alt="" class="moveit"/>
+        <img src="./stocking-cap.png" alt="" class="moveit"/>
+    </div>
+  </body>
+</html>

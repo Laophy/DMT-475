@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+img {
+    max-width: 100%;
+}
+
+#wrapper {
+    width: 70%; /* 960 = 70% */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 3.375em; /* 54px / 16px  = 3.375em*/
+    text-align: center;
+    color: rgb(252, 188, 48);
+}
+
+section {
+    width: 34.375%; /* 330px / 960px */
+    font-size: 1.25em; /* do 20px/16px */
+}
+
+.alignright {
+    float: right;
+    margin-left: 3.125%; /* 30px / 960px */
+}
+
+/* Smartphone media query */
+
+@media only all and (max-width: 480px){
+    #wrapper {
+        width: 95%;
+    }
+    section {
+        width: 100%;
+    }
+    .alignright {
+
+    }
+}

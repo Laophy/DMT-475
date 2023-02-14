@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+      // Wait until the HTML loads
+      $(document).ready(function () {
+        $("#launchRocket").click(function () {
+          $(".rocket").animate(
+            {
+              bottom: "1600",
+            },
+            1000
+          );
+        }); /*end launchRocket.click */
+        $("#resetRocket").click(function () {
+          $(".rocket").animate(
+            {
+              bottom: "0",
+            },
+            1000
+          );
+        }); /*end launchRocket.click */
+      }); /* closes document ready function */
+    </script></head
+  ><br />
+  <style>
+    body {
+        background-image: url('./night-sky.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  </style>
+  <body>
+    <input type="button" id="launchRocket" value="Launch" /><br />
+    <input type="button" id="resetRocket" value="Reset" /><br />
+    <img
+      class="rocket"
+      src="rocket-icon.png"
+      style="position: absolute; bottom: 0; left: 500px"
+    />
+  </body>
+</html>
