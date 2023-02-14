@@ -29,13 +29,18 @@ section {
 /* Smartphone media query */
 
 @media only all and (max-width: 480px){
+    h1 {
+        font-size: 2.25em; /* 36px / 16px */
+    }
     #wrapper {
         width: 95%;
     }
     section {
         width: 100%;
+        margin-top: 14px;
     }
     .alignright {
-
+        float: none;
+        margin-left: 0;
     }
 }
