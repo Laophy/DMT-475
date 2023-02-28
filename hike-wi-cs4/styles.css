@@ -18,7 +18,7 @@ header {
 }
 
 #header-content {
-	width: 960px;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -28,8 +28,12 @@ header {
 	height: 120px;
 }
 
+img {
+	max-width: 100%;
+}
+
 nav {
-	width: 730px;
+	width: 76.0416667%; /* 730/960 */
 	position: absolute;
 	bottom: 8px;
 	right: 0;
@@ -45,7 +49,7 @@ nav li {
 	display: inline-block;
     font-family: 'Jost', sans-serif;
     font-weight: 300;
-	font-size: 20px;
+	font-size: 1.25em;
 	color: #034001;
 	padding: 0 30px;
 	text-align: left;
@@ -58,17 +62,17 @@ nav li:last-child {
 nav a:link {
 	text-decoration: none;
 	color: #034001;
-	padding: 10px 20px;
+	padding: 10px auto;
 }
 
 nav a:hover {
 	color: #034001;
-	padding: 10px 20px 5px;
+	padding: 10px auto;
     border-bottom: 6px solid #034001;
 }
 
 p {
-	font-size: 16px;
+	font-size: 1em;
 	color: #000;
     font-family: 'Jost', sans-serif;
     font-weight: 300;
@@ -92,11 +96,11 @@ p {
     color: #fff;
 }
 #banner h4 {
-    font-size: 26px;
+    font-size: 1.625em;
     font-family: 'Jost', sans-serif;
     font-weight: 700;
     color: #fff;
-    margin: 15px 0 50px;
+    margin: 15px 0 50px; 
 }
 
 #banner a {
@@ -105,7 +109,7 @@ p {
     color: #fff;
     font-family: 'Jost', sans-serif;
     font-weight: 700; 
-    font-size: 20px;
+    font-size: 1.25em;
     text-decoration: none; 
 }
 
@@ -115,7 +119,7 @@ p {
 }
 
 #wrapper-white {
-	width: 960px;
+	width: 70%;
 	background-color: #fff;
 	margin-left: auto;
 	margin-right: auto;
@@ -125,7 +129,7 @@ p {
 }
 
 #wrapper-about {
-	width: 960px;
+	width: 70%;
 	background-color: #fff;
 	margin-left: auto;
 	margin-right: auto;
@@ -138,7 +142,7 @@ main {
 }
 
 section {
-	width: 580px;
+	width: 60.4166667%; /* 580/960 */
     height: 340px;
 	position: relative;
     text-align: center;
@@ -147,7 +151,7 @@ section {
 section img {
      opacity: 1;
      width: 100%;
-     height: auto;
+     height:  340px;
      transition: 1s ease;
 }
 
@@ -161,7 +165,7 @@ section a {
     color: #fff;
     font-family: 'Jost', sans-serif;
     font-weight: 700; 
-    font-size: 20px;
+    font-size: 1.25em;
     text-decoration: none; 
     display: block;
 }
@@ -180,7 +184,7 @@ section:hover .discover-content {
 
 
 aside {
-	width: 320px;
+	width: 33.3333333%; /* 320/960 */
 }
 
 
@@ -188,13 +192,13 @@ aside h1 {
 	color: #034001;
 	font-family: 'Jost', sans-serif;
     font-weight: 700;
-	font-size: 30px;
+	font-size: 1.875em;
 	margin-bottom: 16px;
     text-transform: uppercase;
 }
 
 aside p {
-	font-size: 18px;
+	font-size: 1.125em;
 	line-height: 150%;
 	font-family: 'Jost', sans-serif;
     font-weight: 300;
@@ -211,7 +215,7 @@ aside p {
 
 #wrapper-trails h2 {
     color: #034001;
-    font-size: 32px;
+    font-size: 2em;
     text-align: center;
     font-family: 'Jost', sans-serif;
     font-weight: 700;
@@ -220,36 +224,36 @@ aside p {
 }
 
 #trail-content {
-	width: 960px;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .trail-box {
-	width: 300px;
+	width: 31.25%; /* 300/960 */
 	text-align: center;
 	display: inline-block;
     vertical-align: top;
 }
 
 .trail-box:first-of-type {
-	margin-right: 26px;
+	margin-right: 2.70833333%; /* 26/960 */
 }
 
 .trail-box:last-of-type {
-	margin-left: 26px;
+	margin-left: 2.70833333%; /* 26/960 */
 }
 
 .trail-box h3 {
 	color: #034001;
 	font-family: 'Jost', sans-serif;
     font-weight: 700;
-	font-size: 28px;
+	font-size: 1.75em;
 	margin: 18px 0 12px;
 }
 
 .trail-box p {
-	font-size: 16px;
+	font-size: 1em;
 	margin-bottom: 24px;
 }
 
@@ -257,7 +261,7 @@ aside p {
 footer {
 	padding: 40px 0 10px;
 	width: 100%;
-	font-size: 12px;
+	font-size: 0.75em;
 	background-color: #034001;
 
 }
@@ -266,7 +270,7 @@ footer h3 {
 	font-family: 'Jost', sans-serif;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: 700;
     margin-bottom: 15px;
 }
@@ -278,7 +282,7 @@ footer p {
 }
 
 #footer-content {
-	width: 960px;
+	width: 70%;
 	margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -298,7 +302,7 @@ footer p {
 
 #footer-center img {
     height: 50px;
-    margin-right: 15px;
+    margin-right: 1.5625%; /* 15/960 */
 }
 
 #footer-right {
@@ -308,7 +312,7 @@ footer p {
 
 #footer-right img {
     height: 50px;
-    margin-left: 20px;
+    margin-left: 2.08333333%; /* 20/960 */
 }
 
 
@@ -316,7 +320,7 @@ footer p {
 	color: #034001;
 	font-family: 'Jost', sans-serif;
     font-weight: 700;
-	font-size: 30px;
+	font-size: 1.875em;
 	margin-bottom: 16px;
 	text-transform: uppercase;
 	text-align: center;
@@ -325,14 +329,14 @@ footer p {
 #wrapper-about p {
 	font-family: 'Jost', sans-serif;
     font-weight: 300;
-	font-size: 22px;
+	font-size: 1.375em;
 	line-height: 150%;
 	margin-top: 10px;
 	margin-bottom: 0;
 }
 
 #spirit-content {
-	width: 960px;
+	width: 70%;
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;
@@ -343,6 +347,18 @@ footer p {
 
 #spirit-content img {
 	padding: 5px;
+}
+
+#spirit-content .trail-gallery:first-child {
+	width: 65.625%; /* (600px (width of pic) + 30px (margin)) / 960px */
+}
+
+#spirit-content .trail-gallery {
+	width: 31.25%; /* (300px / 960px */
+}
+
+#spirit-content img {
+	width: 100%; 
 }
 
 /* --------- SLIDESHOW --------- */
@@ -362,7 +378,7 @@ footer p {
 .rectangle {
 	display: inline-block;
 	background-color: #f0ebe8;
-	width: 26px;
+	width: 26px; 
 	height: 5px;
 	margin: 15px;
 }
@@ -370,4 +386,114 @@ footer p {
 #rectangle-nav {
 	margin-top: -50px;
 	text-align: center;
+}
+
+/* TABLET */
+@media only screen and (max-width: 1024px) {
+	nav {
+		left: 0;
+	}
+	#header-content img {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		padding-bottom: 45px;
+	}	
+	#slideshow-wrapper {
+		height: 300px;
+	}
+	#slideshow {
+		height: 300px;
+	}
+	#banner {
+		height: 300px;
+	}
+	#explore {
+		top: 75px;
+	}
+	.rectangle{
+		margin: -30px;
+	}
+
+	.trail-box{
+		width: 100%;
+	}
+	.trail-box p {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* SMARTPHONE */
+@media only all and (max-width: 480px) {
+	nav {
+		left: -55px;
+		width: 480px;
+	}
+	nav ul {
+		display: block;
+		text-align: center;
+	}
+	nav li {
+		display: block;
+		background-color: #034001;
+		text-align: center;
+	}
+	nav li a {
+		color: white;
+	}
+	#slideshow-wrapper {
+		height: 200px;
+	}
+	#slideshow {
+		height: 200px;
+	}
+	#header-content img {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		padding-bottom: 100px;
+	}	
+	#banner {
+		height: 80px;
+	}
+	#explore {
+		top: 75px;
+	}
+	.rectangle{
+		margin: -30px;
+	}
+
+	.trail-box{
+		width: 100%;
+	}
+	.trail-box p {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	aside {
+		width: 100%;
+	}
+	section {
+		width: 100%;
+	}
+	#wrapper-white {
+		display: none;
+	}
+	#footer-left, #footer-center, #footer-right {
+		text-align: center;
+		width: 100%;
+	}
+	#footer-content {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		align-content: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 }

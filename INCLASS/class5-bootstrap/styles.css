@@ -1,0 +1,12 @@
+.main-content {
+    background-image: url('Chocolate-Chip-Pancakes.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 960px;
+}
+
+#content-background {
+    width: 100%;
+}
